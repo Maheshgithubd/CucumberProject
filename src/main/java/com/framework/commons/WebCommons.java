@@ -42,7 +42,7 @@ public class WebCommons {
 		element.sendKeys(value);
 	}
 	
-	//Method to select check box
+	//Method to select check box from dropdown
 	public void SelectCheckbox(WebElement element) {
 		((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView();", element);
 		if(!element.isSelected())	
