@@ -14,6 +14,7 @@ public class WebDriverClass {
 	private static WebDriver driver = null;
 	
 	// Method to launch browser and application and give you the browser session in return
+	
 	@Before  // similar to before test
 	public static synchronized void setubBrowser() {
 		String browsername = ReadDataFromPropFile.readProperties("Config.properties").getProperty("browser");
