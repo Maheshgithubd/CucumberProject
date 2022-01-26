@@ -23,9 +23,7 @@ public class ForgotPasswordPage extends WebCommons {
 	@FindBy(xpath = "//input[@id='btnCancel']")
 	private WebElement cancelBtn;
 	
-	@FindBy(xpath = "//input[@id='btnsave']")
-	private WebElement saveBtn;
-
+	
 	public void verifyForgotPasswordPageElements() throws IOException {
 		try {
 			Click(forgotPasswordLink);
